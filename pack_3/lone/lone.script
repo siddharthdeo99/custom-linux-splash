@@ -28,7 +28,7 @@ state.time = 0.0;
 //--------------------------------- Refresh (Logo animation) --------------------------
 
 # cycle through all images
-for (i = 0; i < 64; i++)
+for (i = 0; i < 18; i++)
   flyingman_image[i] = Image("progress-" + i + ".png");
 flyingman_sprite = Sprite();
 
